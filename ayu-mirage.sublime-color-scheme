@@ -1,0 +1,82 @@
+{
+	// http://www.sublimetext.com/docs/3/color_schemes.html
+	"variables": {
+		// "green": "#FF0000",
+	},
+	"globals": {
+		"background": "#1b202b",
+		"foreground": "#dbdbdb",
+		"find_highlight_foreground": "#1b202b",
+		"gutter": "#1b202b",
+	},
+	"rules": [
+		{
+			"name": "Types fixes",
+			"scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.c++ storage.type",
+			"foreground": "#73d0ff",
+			"font_style": "italic",
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"foreground": "#ad37a0",
+			"font_style": "italic"
+		},
+		{
+			"name": "Member Variable",
+			"scope": "variable.member",
+			"foreground": "#be9eff"
+		},
+		{
+			"name": "Language variable",
+			"scope": "variable.language",
+			"foreground": "#be9eff",
+		},
+		{
+			"name": "Regular Expressions and Escape Characters",
+			"scope": "string.regexp, constant.character, constant.other",
+			"foreground": "#95cee6"
+		},
+		{
+			"name": "String",
+			"scope": "string, constant.other.symbol",
+			"foreground": "#bce08b"
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"foreground": "#ffa759"
+		},
+		{
+			"name": "Imports and packages",
+			"scope": "entity.name.import, entity.name.package",
+			"foreground": "#bce08b"
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"foreground": "#f29e74"
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation.section",
+			"foreground": "#dbdbdb"
+		},
+		{
+			"name": "Function arguments",
+			"scope": "variable.parameter, meta.parameter",
+			"foreground": "#be9eff"
+		},
+		{
+			"name": "Function call",
+			"scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
+			"foreground": "#bce880",
+			"font_style": "Regular"
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function, support.macro",
+			"foreground": "#be9eff"
+		},
+	],
+}
